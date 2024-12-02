@@ -9,51 +9,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <div class="logo">
-                <a href="index.html">
-                    <span class="red">N</span><span class="logo-neuro">NEURO</span><span class="red">M</span>
-                </a>
-            </div>
-            <div class="search-container">
-                <input type="text" placeholder="Buscar no site...">
-                <button>Search</button>
+            <div class="search">
+                <div class="logo">
+                    <a href="./index.html">
+                        <span class="red">N</span>
+                        <span class="logo-neuro">NEURO</span><span class="red">M</span>
+                    </a>
+                </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Buscar no site...">
+                    <button>Search</button>
+                </div>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="membros.html">Membros</a></li>
-                    <li><a href="eventos.html">Eventos</a></li>
-                    <li><a href="publicacoes.html">Publicações</a></li>
-                    <li><a href="softwares.html">Softwares</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./membros.html">Membros</a></li>
+                    <li><a href="./eventos.html">Eventos</a></li>
+                    <li><a href="./publicacoes.html">Publicações</a></li>
+                    <li><a href="./softwares.html">Softwares</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
         </header>
     
-        <main>
+        <main class="main">
             <section class="section-1">
                 <h1>Contato</h1>            
             </section>
     
-            <section class="section-2">
+            <section class="section-2__contato">
                 <div class="left">
                     <div class="icons">
                         <a href="mailto:nneurom@gmail.com" target="_blank">
-                            <img src="gmail.png" alt="Email">
+                            <img src="./src/image/gmail.png" alt="Email">
                             <p><u>nneurom@gmail.com</u></p>
                         </a>
                         <a href="https://www.youtube.com/@nneurom-neurocienciasdomov8303" target="_blank">
-                            <img src="youtube.png" alt="YouTube">
+                            <img src="./src/image/youtube.png" alt="YouTube">
                             <p><u>neuro_movimento</u></p>
                         </a>
                         <a href="https://www.instagram.com/neuro_movimento/" target="_blank">
-                            <img src="insta.png" alt="Instagram">
+                            <img src="./src/image/insta.png" alt="Instagram">
                             <p><u>@neuro_movimento</u></p>
                         </a>
                     </div>
@@ -68,7 +71,6 @@
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                     </div>
-                   
                     <div class="address">
                         <p>Universidade Federal de Minas Gerais<br>
                             Escola de Educação Física, Fisioterapia e Terapia Ocupacional<br>
@@ -92,7 +94,7 @@
         </section>
     </main>
         
-    <footer>
+    <footer class="footer">
         <p>&copy; 2024 NNEUROM - Desenvolvido por Isabelle Nery</p>
     </footer>
     

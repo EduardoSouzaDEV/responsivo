@@ -8,40 +8,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <div class="logo">
-                <a href="index.html">
-                    <span class="red">N</span><span class="logo-neuro">NEURO</span><span class="red">M</span>
-                </a>
-            </div>
-            <div class="search-container">
-                <input type="text" placeholder="Buscar no site...">
-                <button>Search</button>
+            <div class="search">
+                <div class="logo">
+                    <a href="./index.html">
+                        <span class="red">N</span>
+                        <span class="logo-neuro">NEURO</span><span class="red">M</span>
+                    </a>
+                </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Buscar no site...">
+                    <button>Search</button>
+                </div>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="membros.html">Membros</a></li>
-                    <li><a href="eventos.html">Eventos</a></li>
-                    <li><a href="publicacoes.html">Publicações</a></li>
-                    <li><a href="softwares.html">Softwares</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./membros.html">Membros</a></li>
+                    <li><a href="./eventos.html">Eventos</a></li>
+                    <li><a href="./publicacoes.html">Publicações</a></li>
+                    <li><a href="./softwares.html">Softwares</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
         </header>
     
-        <main>
+        <main class="main">
             <section class="section-1">
                 <h1>
                     <span class="red">N</span><span class="black">NEURO</span><span class="red">M</span>
                 </h1>
                 <h2>Núcleo de Neurociências do Movimento</h2>
-                <img src="mao.png" alt="Logo NNEUROM">
+                <img src="./src/image/mao.png" alt="Logo NNEUROM">
             </section>
     
             <section class="section-2">
@@ -57,17 +60,17 @@
                 </div>
                 <div class="gallery">
                     <button class="arrow left" onclick="prevImage()">&#8592;</button>
-                    <img src="galeria7.jpg" alt="Imagem 1" class="active">
-                    <img src="galeria1.jpg" alt="Imagem 2">
-                    <img src="galeria11.jpg" alt="Imagem 3">
-                    <img src="galeria12.jpg" alt="Imagem 4">
-                    <img src="galeria13.jpeg" alt="Imagem 5">
-                    <img src="galeria2.jpg" alt="Imagem 6">
-                    <img src="galeria3.jpg" alt="Imagem 7">
-                    <img src="galeria4.jpg" alt="Imagem 8">
-                    <img src="galeria6.jpg" alt="Imagem 9">
-                    <img src="galeria8.jpg" alt="Imagem 10">
-                    <img src="galeria9.jpg" alt="Imagem 11">
+                    <img src="./src/image/galeria7.jpg" alt="Imagem 1" class="active">
+                    <img src="./src/image/galeria1.jpg" alt="Imagem 2">
+                    <img src="./src/image/galeria11.jpg" alt="Imagem 3">
+                    <img src="./src/image/galeria12.jpg" alt="Imagem 4">
+                    <img src="./src/image/galeria13.jpeg" alt="Imagem 5">
+                    <img src="./src/image/galeria2.jpg" alt="Imagem 6">
+                    <img src="./src/image/galeria3.jpg" alt="Imagem 7">
+                    <img src="./src/image/galeria4.jpg" alt="Imagem 8">
+                    <img src="./src/image/galeria6.jpg" alt="Imagem 9">
+                    <img src="./src/image/galeria8.jpg" alt="Imagem 10">
+                    <img src="./src/image/galeria9.jpg" alt="Imagem 11">
                     <button class="arrow right" onclick="nextImage()">&#8594;</button>
                 </div>
             </section>
@@ -96,7 +99,7 @@
                         <span class="red">N</span>NEURO<span class="red">M</span>
                     </h1>
                     <h2>Núcleo de Neurociências do Movimento</h2>
-                    <img src="mao.png" alt="Logo">
+                    <img src="./src/image/mao.png" alt="Logo">
                 </div>
                 <div class="section-4-right">
                     <h2><span class="red">N</span>NEURO<span class="red">M</span> em números!</h2>
@@ -110,7 +113,7 @@
                             <h3>7</h3>
                             <p>Doutores</p>
                         </div>
-                         <div class="stat-item">
+                        <div class="stat-item">
                             <h3>7</h3>
                             <p>Doutorandos</p>
                         </div>
@@ -139,12 +142,12 @@
             </section>
     
             <section class="section-5">
-                <img src="galeria16.png" alt="NNEUROM">
+                <img src="./src/image/galeria16.png" alt="NNEUROM">
             </section>    
             
         </main>
         
-        <footer>
+        <footer class="footer">
             <p>&copy; 2024 NNEUROM - Desenvolvido por Isabelle Nery</p>
         </footer>
     </div>

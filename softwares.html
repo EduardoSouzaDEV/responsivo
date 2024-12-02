@@ -9,34 +9,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <div class="logo">
-                <a href="index.html">
-                    <span class="red">N</span><span class="logo-neuro">NEURO</span><span class="red">M</span>
-                </a>
-            </div>
-            <div class="search-container">
-                <input type="text" placeholder="Buscar no site...">
-                <button>Search</button>
+            <div class="search">
+                <div class="logo">
+                    <a href="./index.html">
+                        <span class="red">N</span>
+                        <span class="logo-neuro">NEURO</span><span class="red">M</span>
+                    </a>
+                </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Buscar no site...">
+                    <button>Search</button>
+                </div>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="membros.html">Membros</a></li>
-                    <li><a href="eventos.html">Eventos</a></li>
-                    <li><a href="publicacoes.html">Publicações</a></li>
-                    <li><a href="softwares.html">Softwares</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./membros.html">Membros</a></li>
+                    <li><a href="./eventos.html">Eventos</a></li>
+                    <li><a href="./publicacoes.html">Publicações</a></li>
+                    <li><a href="./softwares.html">Softwares</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
         </header>
     
-        <main>
+        <main class="main">
             <section class="section-1">
                 <h1>Softwares</h1>
             </section>
@@ -44,7 +47,7 @@
             <section class="section-2">
                 <div class="software-list">
                     <div class="software-item">
-                        <img src="acelerometro.png" alt="NNeuroMAccel">
+                        <img src="./src/image/acelerometro.png" alt="NNeuroMAccel">
                         <div class="software-content">
                             <h2>NNeuroMAccel</h2>
                             <p>
@@ -57,7 +60,7 @@
                     </div>
         
                     <div class="software-item">
-                        <img src="default.png" alt="NNeuroMReact">
+                        <img src="./src/image/default.png" alt="NNeuroMReact">
                         <div class="software-content">
                             <h2>NNeuroMReact</h2>
                             <p>
@@ -70,7 +73,7 @@
                     </div>
         
                     <div class="software-item">
-                        <img src="default.png" alt="Serial Reaction Time Task">
+                        <img src="./src/image/default.png" alt="Serial Reaction Time Task">
                         <div class="software-content">
                             <h2>Serial Reaction Time Task</h2>
                             <p>---</p>
@@ -85,7 +88,7 @@
             
         </main>  
         
-        <footer>
+        <footer class="footer">
             <p>&copy; 2024 NNEUROM - Desenvolvido por Isabelle Nery</p>
         </footer>
     
